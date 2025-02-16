@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Articles page!!!</h2>
+<h2>Projects page!!!</h2>
 </body>
 </html>

@@ -5,9 +5,10 @@
             <%@include file="../../style.css"%>
         </style>
 
-        <title>java practice: projects</title>
+        <title>java practice: devTools</title>
 
-        <meta name="description" content="Практика java на реальных проектах"
+        <meta name="description" content="На практике недостаточно знания лишь языка java,
+        чтобы программировать понадобится освоить ряд знаний относящихся к devTools и devOps"
 
     </head>
 
@@ -17,14 +18,14 @@
             <br/>
             <br/>
             <br/>
-            <h1>Projects page</h1>
+            <h1>DevTools and devOps page</h1>
         </div>
 
         <div id="header">
             <br/>
             / <a href="../../index.jsp"><b>главная</b></a> /
-            <a href="index.jsp"><b>проекты</b></a> /
-            <a href="../devTools/index.jsp"><b>devTools</b></a> /
+            <a href="../projects/index.jsp"><b>проекты</b></a> /
+            <a href="index.jsp"><b>devTools</b></a> /
             <br/>
             <br/>
         </div>

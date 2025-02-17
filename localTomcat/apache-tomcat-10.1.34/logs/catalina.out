@@ -44,3 +44,579 @@
 16-Feb-2025 17:38:52.479 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
 16-Feb-2025 17:38:52.493 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 16-Feb-2025 17:38:52.501 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:05:23.427 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+16-Feb-2025 18:05:23.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+16-Feb-2025 18:05:23.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+16-Feb-2025 18:05:23.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2025 18:05:23.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.8.0-52-generic
+16-Feb-2025 18:05:23.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+16-Feb-2025 18:05:23.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+16-Feb-2025 18:05:23.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+16-Feb-2025 18:05:23.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+16-Feb-2025 18:05:23.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:05:23.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:05:23.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+16-Feb-2025 18:05:23.441 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2025 18:05:23.722 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:05:23.742 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [454] milliseconds
+16-Feb-2025 18:05:23.779 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2025 18:05:23.779 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+16-Feb-2025 18:05:23.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+16-Feb-2025 18:05:23.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [209] ms
+16-Feb-2025 18:05:23.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+16-Feb-2025 18:05:24.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [35] ms
+16-Feb-2025 18:05:24.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+16-Feb-2025 18:05:24.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [132] ms
+16-Feb-2025 18:05:24.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+16-Feb-2025 18:05:24.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [12] ms
+16-Feb-2025 18:05:24.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+16-Feb-2025 18:05:24.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [21] ms
+16-Feb-2025 18:05:24.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+16-Feb-2025 18:05:24.214 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [13] ms
+16-Feb-2025 18:05:24.218 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:05:24.227 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [483] milliseconds
+16-Feb-2025 18:06:00.991 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2025 18:06:00.991 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:06:00.993 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2025 18:06:01.008 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:06:01.015 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:30:13.497 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+16-Feb-2025 18:30:13.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+16-Feb-2025 18:30:13.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+16-Feb-2025 18:30:13.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2025 18:30:13.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.8.0-52-generic
+16-Feb-2025 18:30:13.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+16-Feb-2025 18:30:13.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+16-Feb-2025 18:30:13.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+16-Feb-2025 18:30:13.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+16-Feb-2025 18:30:13.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:30:13.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:30:13.507 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+16-Feb-2025 18:30:13.508 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2025 18:30:13.724 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:30:13.739 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [390] milliseconds
+16-Feb-2025 18:30:13.778 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2025 18:30:13.778 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+16-Feb-2025 18:30:13.784 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+16-Feb-2025 18:30:13.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [185] ms
+16-Feb-2025 18:30:13.972 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+16-Feb-2025 18:30:14.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [36] ms
+16-Feb-2025 18:30:14.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+16-Feb-2025 18:30:14.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [152] ms
+16-Feb-2025 18:30:14.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+16-Feb-2025 18:30:14.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [10] ms
+16-Feb-2025 18:30:14.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+16-Feb-2025 18:30:14.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [19] ms
+16-Feb-2025 18:30:14.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+16-Feb-2025 18:30:14.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [24] ms
+16-Feb-2025 18:30:14.219 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:30:14.226 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [485] milliseconds
+16-Feb-2025 18:32:14.164 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2025 18:32:14.164 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:32:14.166 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2025 18:32:14.181 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:32:14.188 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:32:19.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+16-Feb-2025 18:32:19.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+16-Feb-2025 18:32:19.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+16-Feb-2025 18:32:19.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2025 18:32:19.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.8.0-52-generic
+16-Feb-2025 18:32:19.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+16-Feb-2025 18:32:19.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+16-Feb-2025 18:32:19.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+16-Feb-2025 18:32:19.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+16-Feb-2025 18:32:19.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:32:19.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:32:19.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:32:19.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+16-Feb-2025 18:32:19.820 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2025 18:32:20.037 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:32:20.051 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [372] milliseconds
+16-Feb-2025 18:32:20.075 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2025 18:32:20.075 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+16-Feb-2025 18:32:20.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+16-Feb-2025 18:32:20.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [170] ms
+16-Feb-2025 18:32:20.252 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+16-Feb-2025 18:32:20.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [28] ms
+16-Feb-2025 18:32:20.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+16-Feb-2025 18:32:20.414 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [134] ms
+16-Feb-2025 18:32:20.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+16-Feb-2025 18:32:20.464 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [19] ms
+16-Feb-2025 18:32:20.464 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+16-Feb-2025 18:32:20.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [21] ms
+16-Feb-2025 18:32:20.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+16-Feb-2025 18:32:20.497 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [12] ms
+16-Feb-2025 18:32:20.500 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:32:20.505 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [453] milliseconds
+16-Feb-2025 18:33:45.904 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2025 18:33:45.904 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:33:45.906 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2025 18:33:45.920 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:33:45.928 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:33:48.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+16-Feb-2025 18:33:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+16-Feb-2025 18:33:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+16-Feb-2025 18:33:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2025 18:33:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.8.0-52-generic
+16-Feb-2025 18:33:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+16-Feb-2025 18:33:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+16-Feb-2025 18:33:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+16-Feb-2025 18:33:48.118 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+16-Feb-2025 18:33:48.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:33:48.119 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:33:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+16-Feb-2025 18:33:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2025 18:33:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2025 18:33:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2025 18:33:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2025 18:33:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2025 18:33:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2025 18:33:48.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2025 18:33:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2025 18:33:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2025 18:33:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:33:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:33:48.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+16-Feb-2025 18:33:48.126 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2025 18:33:48.330 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:33:48.342 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [343] milliseconds
+16-Feb-2025 18:33:48.368 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2025 18:33:48.368 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+16-Feb-2025 18:33:48.373 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+16-Feb-2025 18:33:48.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [171] ms
+16-Feb-2025 18:33:48.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+16-Feb-2025 18:33:48.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [30] ms
+16-Feb-2025 18:33:48.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+16-Feb-2025 18:33:48.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [137] ms
+16-Feb-2025 18:33:48.714 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+16-Feb-2025 18:33:48.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [10] ms
+16-Feb-2025 18:33:48.724 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+16-Feb-2025 18:33:48.742 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [18] ms
+16-Feb-2025 18:33:48.742 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+16-Feb-2025 18:33:48.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [12] ms
+16-Feb-2025 18:33:48.757 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:33:48.764 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [421] milliseconds
+16-Feb-2025 18:34:42.301 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2025 18:34:42.302 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:34:42.304 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2025 18:34:42.318 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:34:42.326 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:34:44.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+16-Feb-2025 18:34:44.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+16-Feb-2025 18:34:44.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+16-Feb-2025 18:34:44.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2025 18:34:44.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.8.0-52-generic
+16-Feb-2025 18:34:44.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+16-Feb-2025 18:34:44.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+16-Feb-2025 18:34:44.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+16-Feb-2025 18:34:44.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+16-Feb-2025 18:34:44.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:34:44.007 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:34:44.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+16-Feb-2025 18:34:44.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2025 18:34:44.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2025 18:34:44.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2025 18:34:44.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2025 18:34:44.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2025 18:34:44.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2025 18:34:44.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2025 18:34:44.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2025 18:34:44.012 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2025 18:34:44.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:34:44.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:34:44.013 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+16-Feb-2025 18:34:44.014 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2025 18:34:44.253 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:34:44.268 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [381] milliseconds
+16-Feb-2025 18:34:44.301 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2025 18:34:44.301 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+16-Feb-2025 18:34:44.307 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+16-Feb-2025 18:34:44.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [179] ms
+16-Feb-2025 18:34:44.488 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+16-Feb-2025 18:34:44.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [29] ms
+16-Feb-2025 18:34:44.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+16-Feb-2025 18:34:44.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [124] ms
+16-Feb-2025 18:34:44.642 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+16-Feb-2025 18:34:44.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [10] ms
+16-Feb-2025 18:34:44.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+16-Feb-2025 18:34:44.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [15] ms
+16-Feb-2025 18:34:44.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+16-Feb-2025 18:34:44.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [10] ms
+16-Feb-2025 18:34:44.681 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:34:44.687 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [418] milliseconds
+16-Feb-2025 18:35:11.083 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2025 18:35:11.084 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:35:11.086 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2025 18:35:11.104 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:35:11.109 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:35:13.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+16-Feb-2025 18:35:13.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+16-Feb-2025 18:35:13.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+16-Feb-2025 18:35:13.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2025 18:35:13.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.8.0-52-generic
+16-Feb-2025 18:35:13.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+16-Feb-2025 18:35:13.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+16-Feb-2025 18:35:13.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+16-Feb-2025 18:35:13.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+16-Feb-2025 18:35:13.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:35:13.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:35:13.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+16-Feb-2025 18:35:13.233 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2025 18:35:13.460 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:35:13.472 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [364] milliseconds
+16-Feb-2025 18:35:13.497 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2025 18:35:13.497 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+16-Feb-2025 18:35:13.503 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+16-Feb-2025 18:35:13.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [215] ms
+16-Feb-2025 18:35:13.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+16-Feb-2025 18:35:13.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [33] ms
+16-Feb-2025 18:35:13.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+16-Feb-2025 18:35:13.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [138] ms
+16-Feb-2025 18:35:13.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+16-Feb-2025 18:35:13.903 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [13] ms
+16-Feb-2025 18:35:13.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+16-Feb-2025 18:35:13.923 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [20] ms
+16-Feb-2025 18:35:13.923 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+16-Feb-2025 18:35:13.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [13] ms
+16-Feb-2025 18:35:13.940 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:35:13.947 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [474] milliseconds
+16-Feb-2025 18:41:56.108 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2025 18:41:56.108 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:41:56.110 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2025 18:41:56.125 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:41:56.132 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:42:49.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+16-Feb-2025 18:42:49.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+16-Feb-2025 18:42:49.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+16-Feb-2025 18:42:49.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2025 18:42:49.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.8.0-52-generic
+16-Feb-2025 18:42:49.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+16-Feb-2025 18:42:49.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+16-Feb-2025 18:42:49.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+16-Feb-2025 18:42:49.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+16-Feb-2025 18:42:49.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:42:49.915 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:42:49.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+16-Feb-2025 18:42:49.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2025 18:42:49.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2025 18:42:49.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2025 18:42:49.922 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2025 18:42:49.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2025 18:42:49.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2025 18:42:49.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2025 18:42:49.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2025 18:42:49.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2025 18:42:49.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:42:49.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:42:49.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+16-Feb-2025 18:42:49.933 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2025 18:42:50.174 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:42:50.187 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [393] milliseconds
+16-Feb-2025 18:42:50.212 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2025 18:42:50.212 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+16-Feb-2025 18:42:50.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+16-Feb-2025 18:42:50.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [187] ms
+16-Feb-2025 18:42:50.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+16-Feb-2025 18:42:50.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [33] ms
+16-Feb-2025 18:42:50.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+16-Feb-2025 18:42:50.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [159] ms
+16-Feb-2025 18:42:50.599 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+16-Feb-2025 18:42:50.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [10] ms
+16-Feb-2025 18:42:50.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+16-Feb-2025 18:42:50.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [15] ms
+16-Feb-2025 18:42:50.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+16-Feb-2025 18:42:50.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [11] ms
+16-Feb-2025 18:42:50.638 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:42:50.643 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [455] milliseconds
+16-Feb-2025 18:44:47.596 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2025 18:44:47.597 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:44:47.599 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2025 18:44:47.613 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:44:47.621 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:49:32.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+16-Feb-2025 18:49:32.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+16-Feb-2025 18:49:32.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+16-Feb-2025 18:49:32.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2025 18:49:32.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.8.0-52-generic
+16-Feb-2025 18:49:32.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+16-Feb-2025 18:49:32.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+16-Feb-2025 18:49:32.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+16-Feb-2025 18:49:32.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+16-Feb-2025 18:49:32.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:49:32.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:49:32.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:49:32.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+16-Feb-2025 18:49:32.479 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2025 18:49:32.690 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:49:32.702 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [366] milliseconds
+16-Feb-2025 18:49:32.728 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2025 18:49:32.728 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+16-Feb-2025 18:49:32.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+16-Feb-2025 18:49:32.907 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [173] ms
+16-Feb-2025 18:49:32.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+16-Feb-2025 18:49:32.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [28] ms
+16-Feb-2025 18:49:32.937 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+16-Feb-2025 18:49:33.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [144] ms
+16-Feb-2025 18:49:33.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+16-Feb-2025 18:49:33.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [10] ms
+16-Feb-2025 18:49:33.092 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+16-Feb-2025 18:49:33.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [20] ms
+16-Feb-2025 18:49:33.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+16-Feb-2025 18:49:33.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [14] ms
+16-Feb-2025 18:49:33.129 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:49:33.135 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [431] milliseconds
+16-Feb-2025 18:50:46.026 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2025 18:50:46.026 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:50:46.028 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2025 18:50:46.044 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:50:46.050 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:51:12.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+16-Feb-2025 18:51:12.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+16-Feb-2025 18:51:12.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+16-Feb-2025 18:51:12.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2025 18:51:12.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.8.0-52-generic
+16-Feb-2025 18:51:12.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+16-Feb-2025 18:51:12.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+16-Feb-2025 18:51:12.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+16-Feb-2025 18:51:12.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+16-Feb-2025 18:51:12.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:51:12.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:51:12.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+16-Feb-2025 18:51:12.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2025 18:51:12.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2025 18:51:12.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2025 18:51:12.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2025 18:51:12.149 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2025 18:51:12.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2025 18:51:12.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2025 18:51:12.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2025 18:51:12.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2025 18:51:12.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:51:12.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 18:51:12.150 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+16-Feb-2025 18:51:12.151 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2025 18:51:12.382 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:51:12.400 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [380] milliseconds
+16-Feb-2025 18:51:12.434 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2025 18:51:12.435 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+16-Feb-2025 18:51:12.442 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+16-Feb-2025 18:51:12.608 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [165] ms
+16-Feb-2025 18:51:12.608 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+16-Feb-2025 18:51:12.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [27] ms
+16-Feb-2025 18:51:12.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+16-Feb-2025 18:51:12.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [165] ms
+16-Feb-2025 18:51:12.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+16-Feb-2025 18:51:12.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [15] ms
+16-Feb-2025 18:51:12.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+16-Feb-2025 18:51:12.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [22] ms
+16-Feb-2025 18:51:12.837 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+16-Feb-2025 18:51:12.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [14] ms
+16-Feb-2025 18:51:12.855 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:51:12.863 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [461] milliseconds
+16-Feb-2025 18:51:24.799 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2025 18:51:24.799 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:51:24.801 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2025 18:51:24.822 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 18:51:24.834 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 19:20:14.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+16-Feb-2025 19:20:14.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+16-Feb-2025 19:20:14.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+16-Feb-2025 19:20:14.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Feb-2025 19:20:14.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.8.0-52-generic
+16-Feb-2025 19:20:14.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+16-Feb-2025 19:20:14.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+16-Feb-2025 19:20:14.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+16-Feb-2025 19:20:14.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+16-Feb-2025 19:20:14.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 19:20:14.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 19:20:14.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+16-Feb-2025 19:20:14.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Feb-2025 19:20:14.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Feb-2025 19:20:14.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Feb-2025 19:20:14.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-Feb-2025 19:20:14.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Feb-2025 19:20:14.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Feb-2025 19:20:14.293 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Feb-2025 19:20:14.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Feb-2025 19:20:14.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Feb-2025 19:20:14.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 19:20:14.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+16-Feb-2025 19:20:14.294 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+16-Feb-2025 19:20:14.295 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+16-Feb-2025 19:20:14.525 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 19:20:14.540 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [388] milliseconds
+16-Feb-2025 19:20:14.573 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Feb-2025 19:20:14.574 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+16-Feb-2025 19:20:14.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+16-Feb-2025 19:20:14.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [193] ms
+16-Feb-2025 19:20:14.776 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+16-Feb-2025 19:20:14.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [36] ms
+16-Feb-2025 19:20:14.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+16-Feb-2025 19:20:14.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [138] ms
+16-Feb-2025 19:20:14.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+16-Feb-2025 19:20:14.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [10] ms
+16-Feb-2025 19:20:14.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+16-Feb-2025 19:20:14.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [15] ms
+16-Feb-2025 19:20:14.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+16-Feb-2025 19:20:14.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [11] ms
+16-Feb-2025 19:20:14.989 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 19:20:14.996 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [455] milliseconds
+16-Feb-2025 19:20:47.298 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Feb-2025 19:20:47.299 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 19:20:47.301 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Feb-2025 19:20:47.320 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Feb-2025 19:20:47.323 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Feb-2025 11:54:20.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+17-Feb-2025 11:54:20.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+17-Feb-2025 11:54:20.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+17-Feb-2025 11:54:20.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Feb-2025 11:54:20.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.11.0-17-generic
+17-Feb-2025 11:54:20.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+17-Feb-2025 11:54:20.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+17-Feb-2025 11:54:20.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+17-Feb-2025 11:54:20.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+17-Feb-2025 11:54:20.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+17-Feb-2025 11:54:20.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+17-Feb-2025 11:54:20.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+17-Feb-2025 11:54:20.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Feb-2025 11:54:20.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Feb-2025 11:54:20.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Feb-2025 11:54:20.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Feb-2025 11:54:20.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Feb-2025 11:54:20.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Feb-2025 11:54:20.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Feb-2025 11:54:20.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Feb-2025 11:54:20.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Feb-2025 11:54:20.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+17-Feb-2025 11:54:20.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+17-Feb-2025 11:54:20.670 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+17-Feb-2025 11:54:20.671 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Feb-2025 11:54:21.096 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+17-Feb-2025 11:54:21.119 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [647] milliseconds
+17-Feb-2025 11:54:21.155 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Feb-2025 11:54:21.155 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+17-Feb-2025 11:54:21.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+17-Feb-2025 11:54:21.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [308] ms
+17-Feb-2025 11:54:21.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+17-Feb-2025 11:54:21.545 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [69] ms
+17-Feb-2025 11:54:21.545 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+17-Feb-2025 11:54:21.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [186] ms
+17-Feb-2025 11:54:21.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+17-Feb-2025 11:54:21.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [12] ms
+17-Feb-2025 11:54:21.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+17-Feb-2025 11:54:21.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [20] ms
+17-Feb-2025 11:54:21.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+17-Feb-2025 11:54:21.777 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [14] ms
+17-Feb-2025 11:54:21.780 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Feb-2025 11:54:21.788 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [668] milliseconds
+17-Feb-2025 11:55:45.224 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Feb-2025 11:55:45.224 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Feb-2025 11:55:45.227 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Feb-2025 11:55:45.249 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Feb-2025 11:55:45.260 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Feb-2025 16:05:49.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/10.1.34
+17-Feb-2025 16:05:49.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 16:01:16 UTC
+17-Feb-2025 16:05:49.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  10.1.34.0
+17-Feb-2025 16:05:49.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+17-Feb-2025 16:05:49.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             6.11.0-17-generic
+17-Feb-2025 16:05:49.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+17-Feb-2025 16:05:49.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-23.0.1-oracle-x64
+17-Feb-2025 16:05:49.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+17-Feb-2025 16:05:49.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+17-Feb-2025 16:05:49.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+17-Feb-2025 16:05:49.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+17-Feb-2025 16:05:49.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/conf/logging.properties
+17-Feb-2025 16:05:49.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Feb-2025 16:05:49.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Feb-2025 16:05:49.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Feb-2025 16:05:49.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Feb-2025 16:05:49.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Feb-2025 16:05:49.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Feb-2025 16:05:49.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Feb-2025 16:05:49.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Feb-2025 16:05:49.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Feb-2025 16:05:49.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+17-Feb-2025 16:05:49.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34
+17-Feb-2025 16:05:49.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/temp
+17-Feb-2025 16:05:49.116 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+17-Feb-2025 16:05:49.445 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+17-Feb-2025 16:05:49.463 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [575] milliseconds
+17-Feb-2025 16:05:49.500 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Feb-2025 16:05:49.500 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.34]
+17-Feb-2025 16:05:49.507 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs]
+17-Feb-2025 16:05:49.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/docs] has finished in [254] ms
+17-Feb-2025 16:05:49.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager]
+17-Feb-2025 16:05:49.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/manager] has finished in [47] ms
+17-Feb-2025 16:05:49.811 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples]
+17-Feb-2025 16:05:50.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/examples] has finished in [235] ms
+17-Feb-2025 16:05:50.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT]
+17-Feb-2025 16:05:50.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/ROOT] has finished in [18] ms
+17-Feb-2025 16:05:50.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp]
+17-Feb-2025 16:05:50.086 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/webapp] has finished in [21] ms
+17-Feb-2025 16:05:50.086 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager]
+17-Feb-2025 16:05:50.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/alexandr/GitHub/javaWebSite/localTomcat/apache-tomcat-10.1.34/webapps/host-manager] has finished in [18] ms
+17-Feb-2025 16:05:50.109 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Feb-2025 16:05:50.118 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [653] milliseconds
+17-Feb-2025 16:06:59.803 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Feb-2025 16:06:59.804 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Feb-2025 16:06:59.806 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Feb-2025 16:06:59.826 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Feb-2025 16:06:59.828 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

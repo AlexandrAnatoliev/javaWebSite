@@ -24,7 +24,7 @@
             <br/>
             / <a href="index.jsp"><b>главная</b></a> /
             <a href="jsps/projects/index.jsp"><b>проекты</b></a> /
-            <a href="jsps/articles/index.jsp"><b>конспект</b></a> /
+            <a href="jsps/devTools/index.jsp"><b>devTools</b></a> /
             <br/>
             <br/>
         </div>

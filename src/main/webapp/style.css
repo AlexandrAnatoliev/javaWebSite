@@ -1,0 +1,36 @@
+body {
+    font-family: arial;
+    colour: #666666;
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;}
+
+h1 {
+    text-align: center;
+    padding: 10px;}
+
+h3 {
+    text-align: center;
+    padding: 10px;}
+
+p {
+    padding: 10px;}
+
+#header {
+    position: fixed;
+    top: 10px;
+    width: 90%;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #aeaca8;
+}
+
+#footer {
+    text-align: right;
+    border-width: 2px;
+    background-color: #aeaca8;
+    border-style: solid;
+    padding: 10px;
+}
+

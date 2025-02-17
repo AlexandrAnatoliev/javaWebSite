@@ -1,11 +1,13 @@
 <%@ page contentType="text/html;charset=utf-8" %>
 <html lang="ru">
     <head>
-        <title>JAVA PRACTICE</title>
-
         <style>
             <%@include file="style.css"%>
         </style>
+
+        <title>java practice: main</title>
+
+        <meta name="description" content="Ежедневная практика в java - лучший способ освоить данный язык программирования"
 
     </head>
 

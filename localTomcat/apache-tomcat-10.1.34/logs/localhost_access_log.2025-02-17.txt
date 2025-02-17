@@ -1,0 +1,6 @@
+127.0.0.1 - - [17/Feb/2025:11:54:29 +0300] "GET / HTTP/1.1" 200 11239
+127.0.0.1 - - [17/Feb/2025:11:54:29 +0300] "GET /favicon.ico HTTP/1.1" 200 8192
+127.0.0.1 - - [17/Feb/2025:11:55:13 +0300] "GET /webapp/ HTTP/1.1" 200 2533
+127.0.0.1 - - [17/Feb/2025:11:55:16 +0300] "GET /webapp/index.jsp HTTP/1.1" 200 2533
+127.0.0.1 - - [17/Feb/2025:11:55:18 +0300] "GET /webapp/jsps/projects/index.jsp HTTP/1.1" 200 55
+127.0.0.1 - - [17/Feb/2025:11:55:22 +0300] "GET /webapp/jsps/articles/index.jsp HTTP/1.1" 200 55

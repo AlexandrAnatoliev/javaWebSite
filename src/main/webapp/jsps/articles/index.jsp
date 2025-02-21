@@ -18,14 +18,14 @@
             <br/>
             <br/>
             <br/>
-            <h1>DevTools and devOps page</h1>
+            <h1>Articles page</h1>
         </div>
 
         <div id="header">
             <br/>
             / <a href="../../index.jsp"><b>главная</b></a> /
             <a href="../projects/index.jsp"><b>проекты</b></a> /
-            <a href="index.jsp"><b>devTools</b></a> /
+            <a href="index.jsp"><b>конспекты</b></a> /
             <br/>
             <br/>
         </div>

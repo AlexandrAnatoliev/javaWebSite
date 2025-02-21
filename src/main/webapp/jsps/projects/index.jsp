@@ -23,7 +23,7 @@
         <div id="header">
             <br/>
             / <a href="../../index.jsp"><b>главная</b></a> /
-            <a href="index.jsp"><b>проекты</b></a> /
+            <a href="index.jsp"><b><span class="iamhere">проекты</span></b></a> /
             <a href="../articles/index.jsp"><b>конспекты</b></a> /
             <br/>
             <br/>

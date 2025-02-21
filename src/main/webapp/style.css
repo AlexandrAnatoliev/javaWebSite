@@ -24,6 +24,13 @@ p {
     border-radius: 10px;
 }
 
+#header a {
+text-decoration: none;
+color: black}
+
+#header a:hover, a:hover {
+color: red;}
+
 #footer {
     text-align: right;
     border-width: 2px;
@@ -33,6 +40,12 @@ p {
     border-radius: 10px;
 }
 
-.center{
+.center {
 text-align: center;}
+
+.iamhere {
+color: red;
+}
+
+
 

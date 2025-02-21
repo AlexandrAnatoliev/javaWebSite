@@ -13,20 +13,14 @@
 
     <body>
 
-        <div id="top">
-            <br/>
-            <br/>
-            <br/>
-            <h1>Projects page</h1>
-        </div>
-
         <div id="header">
-            <br/>
             / <a href="../../index.jsp"><b>главная</b></a> /
             <a href="index.jsp"><b><span class="iamhere">проекты</span></b></a> /
             <a href="../articles/index.jsp"><b>конспекты</b></a> /
-            <br/>
-            <br/>
+        </div>
+
+        <div id="top">
+            <h1>Projects page</h1>
         </div>
 
         <h3>Классический текст Lorem Ipsum, используемый с XVI века</h3>
